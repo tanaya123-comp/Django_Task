@@ -140,3 +140,8 @@ DATABASE_ROUTERS:['routers.database_routers.UserRouter','routers.database_router
 
 #username-tanaya
 #password-tanaya
+
+#neha pict@123
+#pratham pict@123
+
+#gargi pict@123

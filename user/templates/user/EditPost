@@ -1,0 +1,15 @@
+{%  extends 'user/main.html' %}
+{% block content %}
+<div style="display:flex;flex-direction:column;margin-top:150px;margin-left:500px;margin-right:500px">
+    <form method="POST" >
+        {% csrf_token %}
+        {{form.text}}
+        <br>
+        <br>
+        <button type="submit" class="btn btn-success">Submit</button>
+        <br>
+    </form>
+    <button type="button" class="btn btn-danger">Delete</button>
+    </div>
+
+{% endblock %}
